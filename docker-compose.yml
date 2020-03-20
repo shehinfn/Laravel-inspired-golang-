@@ -9,5 +9,4 @@ services:
         ports: 
             - "8080:8080"
         volumes: 
-            # - ./app:/go/src/github.com/shehinfn/conferencing/app
-            - ./app:/go/src/conferencing/app
+            - ./app:/go/src/myproject/app
